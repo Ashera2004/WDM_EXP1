@@ -1,0 +1,15 @@
+@relation employees-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Add-TSTR-NAddress-Clast-W1.0-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+
+@attribute Name {x,y,z,a,b}
+@attribute ID numeric
+@attribute salary string
+@attribute experience numeric
+@attribute gender {M,F}
+@attribute phone numeric
+
+@data
+x,0,low,0.25,M,25011234
+y,0.25,low,0,F,25081911
+z,0.5,high,0.75,F,2350191
+a,0.75,medium,0.5,M,239291
+b,1,high,1,M,2340191

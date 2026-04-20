@@ -1,0 +1,14 @@
+@relation weather-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Add-TSTR-NPressure-C5-W1.0-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+
+@attribute outlook string
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {false,true}
+@attribute play {yes,no}
+
+@data
+sunny,0.666667,0.75,false,no
+overcast,1,1,true,no
+sunny,0.333333,0.5,false,yes
+rainy,0,0.25,true,no
+rainy,0.2,0,false,yes
